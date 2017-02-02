@@ -1,0 +1,61 @@
+﻿<%@ Master Language="VB" CodeFile="SM-Main.master.vb" Inherits="SM_Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    
+    <title></title>
+    <style>
+        .shawdow-nav{  
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+        .contentplaceholder{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Hotel China Town Inn</a>
+                </div>
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-out"></span>Log Out</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked shawdow-nav">
+                <li class="active"><a href="#">Staff</a></li>
+                <li><a href="Check_in(Reservation).aspx">Manage Check-In</a></li>
+                <li><a href="Check-in(Walk-In).aspx">Manage Check-In wihtout Reservations</a></li>
+                <li><a href="Check-Out.aspx">Manage Check-Out</a></li>
+                <li><a href="Billings.aspx">Manage Billings and Payment</a></li>
+                <li><a href="Searching_Details.aspx">Search for Relevant Details</a></li>
+                <li><a href="Daily_Report.aspx">Generate Daily Reports</a></li>
+                <li class="active"><a href="#">Manager</a></li>
+                <li><a href="Add_Rooms.aspx">Create Rooms</a></li>
+                <li><a href="Modify_Rooms.aspx">Update and Modify Rooms</a></li>
+                <li><a href="Delete_Rooms.aspx">Delete Rooms</a></li>
+                <li><a href="Search_Rooms.aspx">Search for Rooms</a></li>
+                <li><a href="Room_Report.aspx">Generate Room Occupancy</a></li>
+            </ul>
+        </div>
+        <div class="col-md-9 well well-lg">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
+
+    
+
+    </form>
+</body>
+</html>

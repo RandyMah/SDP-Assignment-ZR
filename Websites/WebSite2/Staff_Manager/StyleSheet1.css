@@ -1,0 +1,97 @@
+﻿.header {
+    background-color:teal;
+    height: 100px;
+    width:100%;
+    display:block;
+    border:0;
+    font-size:30px;
+    
+
+}
+.loginbtn{
+    display:block;
+    text-align:right;
+    margin: 20px;
+    border:none;
+    background-color:teal; 
+    font-size: 25px;
+    color:white;
+    
+}
+
+.sidebar{
+    width: 16%;
+    background-color: #e5d887;
+    height:100%;
+    display:block;
+    border:0;
+    margin-top:0px;
+    float:left;
+}
+
+
+.staff_manager{
+    text-align:center;
+    margin-top:0px;
+    padding-top:25px;
+}
+
+ul{
+    
+    margin:0;
+    list-style-type:none;
+    padding-left:0px;
+
+}
+li{
+    list-style-type:none;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-top:2px black solid;
+    display:block;
+    text-align:center;
+    color: black;
+}
+
+li:hover{
+    background: white;
+    color:teal;
+    border-left: 8px teal solid;
+}
+
+.content{
+    display:block;
+    width:84%;
+    height:827px;
+    background-color: #b6b6b6;
+    float: right;
+    border-bottom:1px black solid;
+    margin-bottom: 0;
+    margin:0;
+    opacity: 0.95;
+}
+.contentplaceholder{
+    font-size:25px;
+    
+}
+.container {
+    width: 100%;
+    height: 100%;
+   
+}
+
+body{
+     background-image: url(http://i0.wp.com/chocolatepillow.com/wp-content/uploads/2015/02/luxury-hotel-hd-wallpaper-332160.jpg?fit=1920%2C1080);
+}
+
+
+a{
+    display:block;
+    text-decoration:none;
+    
+}
+
+a:visited{
+    text-decoration:none;
+    color:black;
+}
